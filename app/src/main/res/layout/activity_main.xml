@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.bwie.weihaorong20181203.MainActivity">
+
+    <com.bwie.weihaorong20181203.MyXHView
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="搜索历史"
+            />
+        <TextView
+            android:id="@+id/delete_text"
+            android:layout_width="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="删除"
+            android:layout_marginRight="5dp"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
+    <com.bwie.weihaorong20181203.MyFloatLayout
+        android:id="@+id/myfloat_history"
+        android:layout_width="match_parent"
+        app:textColor="@color/colorPrimaryDark"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="历史记录"
+
+        android:layout_marginLeft="5dp"
+        />
+    <com.bwie.weihaorong20181203.MyFloatLayout
+        android:id="@+id/folat_layout"
+        app:textColor="@color/colorPrimaryDark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.bwie.weihaorong20181203.MyFloatLayout>
+
+
+</LinearLayout>

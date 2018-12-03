@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/Search_edit"
+        android:layout_weight="6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@mipmap/ic_launcher"
+        android:drawablePadding="5dp"
+        android:hint="搜索"
+        />
+    <TextView
+        android:id="@+id/Cannel_text"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:gravity="center"
+        android:text="添加"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
